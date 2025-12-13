@@ -21,7 +21,7 @@ from app.request_stats import get_stats
 
 app = FastAPI(
     title='FastAPI Moodify',
-    description='Mood classification from audio tracks',
+    description='Классификация треков по настроению',
     lifespan=lifespan
 )
 
